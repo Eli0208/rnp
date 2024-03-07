@@ -1,0 +1,19 @@
+.dashboard-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+  }
+  
+  .dashboard-item {
+    display: block;
+    align-items: center;
+    cursor: pointer; /* Optional: Add cursor pointer for better user experience */
+    text-align: center;
+  }
+  
+  .dashboard-item:hover {
+    opacity: 0.8; /* Optional: Add hover effect */
+  }

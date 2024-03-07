@@ -1,0 +1,17 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This will evenly space out the items */
+    width: 10vw;
+    height: 100vh; /* Make the sidebar take the full height of its container */
+    color: gold;
+    position: fixed;
+  }
+
+  .nav-link {
+    margin:10px 0; /* Add some vertical margin to each Nav Link */
+    color: gold;
+  }
+  .nav-link:hover{
+    color: white;
+  }
